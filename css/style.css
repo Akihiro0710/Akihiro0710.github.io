@@ -8,9 +8,23 @@ a:hover{
 body{
   background-color: #faf8ea;
   color: #333;
+  font-size: 16px;
 }
 header, footer{
+  position: fixed;
+  left: 0;
+  width: 100%;
   background-color: #7eccc1;
+}
+header{
+  top: 0;
+}
+footer{
+  bottom: 0;
+}
+main{
+  margin-top: 52px;
+  margin-bottom: 46px;
 }
 
 header nav{
@@ -23,28 +37,57 @@ header nav:after{
   clear: both;
 }
 header nav ul{
-  float: right;
   margin: 0;
   padding: 0;
   list-style: none;
 }
+header nav ul#social{
+  float: right;
+}
+header nav ul#main-menu{
+  float: left;
+}
 header nav ul li{
   float: left;
 }
-header nav ul li a{
+header nav ul#main-menu li a{
   display: block;
-  padding: 8px;
+  padding: 8px 16px;
   color: #fff;
 }
-header nav ul li a:hover{
-  color: #;
+header nav ul#main-menu li a:hover{
+  background-color: #54a39b;
+  color: #fff;
+}
+header nav ul#social li{
+  width: 28px;
+  margin: 4px;
+}
+header nav ul#social li a{
+  line-height: 28px;
+  display: block;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #f7c3bc;
+}
+header nav ul#social li a:hover {
+  background-color: #f19896;
+  -webkit-animation: scale .3s ease-in-out;
+  animation: scale .3s ease-in-out;
+}
+@-webkit-keyframes scale {
+  50% { -webkit-transform: scale(1.1); }
+}
+@keyframes scale {
+  50% { transform: scale(1.1); }
 }
 h1{}
 
 footer small{
   width: 80%;
   margin: 0 auto;
-  padding: 8px;
+  padding: 8px 0;
   display: block;
   color: #fff;
 }
