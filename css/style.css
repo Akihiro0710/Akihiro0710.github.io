@@ -78,8 +78,6 @@ header nav ul#social li a:hover {
 @keyframes scale {
   50% { transform: scale(1.1); }
 }
-h1{}
-
 footer small{
   padding: 8px 0;
   display: block;
