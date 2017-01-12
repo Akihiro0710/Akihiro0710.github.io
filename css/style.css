@@ -2,9 +2,13 @@
 /*
  *
  */
+html, body{
+  height: 100%;
+}
 a:hover{
   text-decoration: none;
 }
+
 body{
   background-color: #faf8ea;
   color: #333;
@@ -23,8 +27,7 @@ footer{
   bottom: 0;
 }
 main{
-  margin-top: 52px;
-  margin-bottom: 46px;
+  padding-bottom: 46px;
 }
 
 header nav:after{
@@ -77,6 +80,17 @@ header nav ul#social li a:hover {
 }
 @keyframes scale {
   50% { transform: scale(1.1); }
+}
+
+#top-image{
+  padding-top: 36px;
+  background-color: #7eccc1;
+  /*height: 60%;*/
+}
+#top-image h1{
+  color: #fff;
+  /*margin-top: 10%;*/
+  text-align: center;
 }
 footer small{
   padding: 8px 0;
