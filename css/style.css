@@ -9,10 +9,6 @@ body{
   background-color: #faf8ea;
   color: #333;
 }
-header nav, footer small, main{
-  width: 80%;
-  margin: 0 auto;
-}
 header, footer{
   background-color: #7eccc1;
 }
