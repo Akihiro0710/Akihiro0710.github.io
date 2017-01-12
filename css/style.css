@@ -2,3 +2,53 @@
 /*
  *
  */
+a:hover{
+  text-decoration: none;
+}
+body{
+  background-color: #faf8ea;
+  color: #333;
+}
+header nav, footer small, main{
+  width: 80%;
+  margin: 0 auto;
+}
+header, footer{
+  background-color: #7eccc1;
+}
+
+header nav{
+  width: 80%;
+  margin: 0 auto;
+}
+header nav:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+header nav ul{
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header nav ul li{
+  float: left;
+}
+header nav ul li a{
+  display: block;
+  padding: 8px;
+  color: #fff;
+}
+header nav ul li a:hover{
+  color: #;
+}
+h1{}
+
+footer small{
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px;
+  display: block;
+  color: #fff;
+}
