@@ -27,10 +27,6 @@ main{
   margin-bottom: 46px;
 }
 
-header nav{
-  width: 80%;
-  margin: 0 auto;
-}
 header nav:after{
   content: "";
   display: block;
@@ -85,8 +81,6 @@ header nav ul#social li a:hover {
 h1{}
 
 footer small{
-  width: 80%;
-  margin: 0 auto;
   padding: 8px 0;
   display: block;
   color: #fff;
